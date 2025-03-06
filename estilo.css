@@ -15,13 +15,13 @@ body {
 
 /* Container principal */
 .container {
-    display: grid; /* Organiza os itens verticalmente */
+    display: grid;
     grid-template-rows: auto 1fr auto; /* Header, Main e Footer */
     width: 100%;
     max-width: 414px; /* Largura do iPhone 11 */
     height: 100vh;
     gap: 16px; /* Espaço entre os elementos */
-    padding: 16px; /* Margem externa */
+    padding: 16px;
     background-color: white;
 }
 
@@ -36,10 +36,32 @@ body {
 
 /* Estilização do Conteúdo Principal */
 .main {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Sidebar (1 parte) e Content (2 partes) */
+    gap: 16px;
+    padding: 16px;
+}
+
+/* Sidebar (lado esquerdo) */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Área de Conteúdo (lado direito) */
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Blocos individuais */
+.box {
     background-color: #ddd;
     padding: 16px;
     text-align: center;
-    flex-grow: 1;
+    border-radius: 8px;
 }
 
 /* Estilização do Rodapé */
