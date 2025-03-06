@@ -1,11 +1,10 @@
-/* Reset básico para remover margens e preencher a tela */
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Definir um fundo geral para a página */
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
@@ -16,58 +15,57 @@ body {
 /* Container principal */
 .container {
     display: grid;
-    grid-template-rows: auto 1fr auto; /* Header, Main e Footer */
+    grid-template-rows: auto auto 1fr;
     width: 100%;
-    max-width: 414px; /* Largura do iPhone 11 */
+    max-width: 414px; /* Para telas de celular */
     height: 100vh;
-    gap: 16px; /* Espaço entre os elementos */
+    gap: 16px;
     padding: 16px;
     background-color: white;
 }
 
-/* Estilização do Cabeçalho */
+/* Header */
 .header {
     background-color: #007BFF;
     color: white;
     text-align: center;
     padding: 16px;
-    font-size: 20px;
-}
-
-/* Estilização do Conteúdo Principal */
-.main {
-    display: grid;
-    grid-template-columns: 1fr 2fr; /* Sidebar (1 parte) e Content (2 partes) */
-    gap: 16px;
-    padding: 16px;
-}
-
-/* Sidebar (lado esquerdo) */
-.sidebar {
     display: flex;
-    flex-direction: column;
-    gap: 8px;
+    justify-content: space-between;
 }
 
-/* Área de Conteúdo (lado direito) */
-.content {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-/* Blocos individuais */
-.box {
-    background-color: #ddd;
+/* Mensagens */
+.mensagens {
+    background-color: #d9f0ff;
     padding: 16px;
-    text-align: center;
     border-radius: 8px;
 }
 
-/* Estilização do Rodapé */
-.footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
+/* Main - contém Aulas e Notícias */
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Aulas */
+.aulas {
+    background-color: #e0ffe0;
     padding: 16px;
+    border-radius: 8px;
+}
+
+.disciplina {
+    background-color: white;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Notícias */
+.noticias {
+    background-color: #ffebcc;
+    padding: 16px;
+    border-radius: 8px;
 }
