@@ -1,10 +1,14 @@
+// Função para abrir o menu
 function openMenu() {
-    document.getElementById("menu_aba").style.display = "block"; 
-  }
-  
-  function closeMenu() {
-    document.getElementById("menu_aba").style.display = "none";    
-  }
+    const menu = document.getElementById("menu_aba");
+    menu.classList.toggle("ativo");
+}
+
+// Função para fechar o menu
+function closeMenu() {
+    const menu = document.getElementById("menu_aba");
+    menu.classList.remove("ativo");
+}
 
   function temaInatel() {
     document.documentElement.style.setProperty('--cor-click', '#126ae2');
