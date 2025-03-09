@@ -14,19 +14,10 @@ body {
 
 @import url(https://fonts.googleapis.com/css?family=Arimo);
 
-/* Container principal */
-.container {
-    display: grid;
-    grid-template-rows: auto auto 1fr;
-    width: 100%;
-    max-width: 414px; /* Para telas de celular */
-    height: 100vh;
-    gap: 16px;
-    padding: 16px;
-    background-color: white;
-}
 
 /* Header */
+
+
 .header {
     position: relative;
     height: 35px;
@@ -51,6 +42,15 @@ body {
     left: 50%;
     transform: translate(-50%);
   }  
+
+/* Logo SVG */
+.svg_logo{
+    width: 80px;
+  }
+
+.path_logo{
+    fill: var(--cor-click);
+  }
 
 /* Mensagens */
 .mensagens {
