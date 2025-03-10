@@ -12,6 +12,7 @@ function openMenu() {
       document.documentElement.style.setProperty("--cor-text", "#303030");
       document.documentElement.style.setProperty("--cor-back1", "#A6A6A6");
       document.documentElement.style.setProperty("--cor-back2", "#F2F2F2");
+      document.documentElement.style.setProperty("--cor-text2", "#F2F2F2");
       document.documentElement.style.setProperty("--md-sys-color-primary", "#1E1E1E");
   }
   
@@ -19,8 +20,9 @@ function openMenu() {
       document.documentElement.style.setProperty("--cor-click", "#126ae2");
       document.documentElement.style.setProperty("--cor-sombra", "#0a599b");
       document.documentElement.style.setProperty("--cor-text", "black");
-      document.documentElement.style.setProperty("--cor-back1", "#CBCFD1");
-      document.documentElement.style.setProperty("--cor-back2", "#white");
+      document.documentElement.style.setProperty("--cor-back1", "#E1E6E8");
+      document.documentElement.style.setProperty("--cor-back2", "#B7BBBD");
+      document.documentElement.style.setProperty("--cor-text2", "#B7BBBD");
       document.documentElement.style.setProperty("--md-sys-color-primary", "#126ae2");
     
   }

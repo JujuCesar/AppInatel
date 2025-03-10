@@ -160,5 +160,10 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   }
 
+  .bt {
+    color: var(--cor-text2);
+    background-color: var(--cor-text2);
+  }
+
   
   
