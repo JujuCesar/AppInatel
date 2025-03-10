@@ -7,12 +7,12 @@ function openMenu() {
   }
   
   function temaBrut() {
-      document.documentElement.style.setProperty("--cor-click", "##3B0000");
+      document.documentElement.style.setProperty("--cor-click", "#570700");
       document.documentElement.style.setProperty("--cor-sombra", "#9b0a59");
       document.documentElement.style.setProperty("--cor-text", "black");
-      document.documentElement.style.setProperty("--cor-back1", "#F2F2F2");
-      document.documentElement.style.setProperty("--cor-back2", "#4f6a93");
-      document.documentElement.style.setProperty("--md-sys-color-primary", "##3B0000");
+      document.documentElement.style.setProperty("--cor-back1", "#A6A6A6");
+      document.documentElement.style.setProperty("--cor-back2", "#F2F2F2");
+      document.documentElement.style.setProperty("--md-sys-color-primary", "#570700");
   }
   
   function temaInatel() {

@@ -3,7 +3,7 @@
     --cor-sombra: #0a599b; /* Azul Escuro */
     --cor-text: black; /* Preto */
     --cor-back1: #edf2f4; /* Azul claro */
-    --cor-back2: #6a937a; /* Verde Escuro */
+    --cor-back2: white; /* Verde Escuro */
     
     --md-sys-color-primary: #126ae2;
     --md-sys-color-on-primary: #FFFFFF;
@@ -58,7 +58,7 @@
   
   #mensagens {
     position: relative;
-    background-color: white;
+    background-color: var(--cor-back2);
     top: 0px;
     left: 0px;
     right: 0px;
@@ -149,7 +149,7 @@
   
   #componentes {
     position: relative;
-    background-color: white;
+    background-color: var(--cor-back2);
     top: 0px;
     left: 0px;
     right: 0px;
