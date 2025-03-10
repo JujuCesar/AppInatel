@@ -6,13 +6,13 @@ function openMenu() {
     document.getElementById("menu_aba").style.display = "none";    
   }
   
-  function temaLim() {
-      document.documentElement.style.setProperty("--cor-click", "#38184C");
+  function temaBrut() {
+      document.documentElement.style.setProperty("--cor-click", "##3B0000");
       document.documentElement.style.setProperty("--cor-sombra", "#9b0a59");
       document.documentElement.style.setProperty("--cor-text", "black");
-      document.documentElement.style.setProperty("--cor-back1", "#CEF09D");
+      document.documentElement.style.setProperty("--cor-back1", "#F2F2F2");
       document.documentElement.style.setProperty("--cor-back2", "#4f6a93");
-      document.documentElement.style.setProperty("--md-sys-color-primary", "#38184C");
+      document.documentElement.style.setProperty("--md-sys-color-primary", "#666666");
   }
   
   function temaInatel() {
