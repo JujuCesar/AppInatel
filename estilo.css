@@ -135,7 +135,7 @@
     border-radius: 10px;
   }
   
-  #menu_bot {
+  .menu_bot {
     position: relative;
     padding: 20px;
     display: block;
