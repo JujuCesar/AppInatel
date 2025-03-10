@@ -19,7 +19,7 @@ function openMenu() {
       document.documentElement.style.setProperty("--cor-click", "#126ae2");
       document.documentElement.style.setProperty("--cor-sombra", "#0a599b");
       document.documentElement.style.setProperty("--cor-text", "black");
-      document.documentElement.style.setProperty("--cor-back1", "#edf2f4");
+      document.documentElement.style.setProperty("--cor-back1", "#CBCFD1");
       document.documentElement.style.setProperty("--cor-back2", "#white");
       document.documentElement.style.setProperty("--md-sys-color-primary", "#126ae2");
     

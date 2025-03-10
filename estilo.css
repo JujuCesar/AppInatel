@@ -2,7 +2,7 @@
     --cor-click: #126ae2; /* Click */
     --cor-sombra: #0a599b; /* Azul Escuro */
     --cor-text: black; /* Preto */
-    --cor-back1: #edf2f4; /* Azul claro */
+    --cor-back1: #CBCFD1; /* Azul claro */
     --cor-back2: white; /* Verde Escuro */
     
     --md-sys-color-primary: #126ae2;
@@ -157,6 +157,10 @@
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .bt {
+    color: var(--cor-text);
   }
   
   
