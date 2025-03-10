@@ -12,7 +12,7 @@ function openMenu() {
       document.documentElement.style.setProperty("--cor-text", "black");
       document.documentElement.style.setProperty("--cor-back1", "#F2F2F2");
       document.documentElement.style.setProperty("--cor-back2", "#4f6a93");
-      document.documentElement.style.setProperty("--md-sys-color-primary", "#666666");
+      document.documentElement.style.setProperty("--md-sys-color-primary", "##3B0000");
   }
   
   function temaInatel() {
