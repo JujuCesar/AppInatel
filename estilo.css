@@ -122,17 +122,15 @@
   }
   
   #menu_aba {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: white;
-    overflow-x: hidden;
-    transition: 0.5s;
-    z-index: 1;
-    display: none;
-    border-radius: 10px;
+    display: none; /* Inicialmente oculto */
+    position: absolute; /* Garante que fica sobre outros elementos */
+    top: 50px; /* Ajuste para a posição desejada */
+    left: 10px; /* Ajuste para a posição desejada */
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Garante que o menu aparece acima de outros elementos */
   }
   
   .menu_bot {
