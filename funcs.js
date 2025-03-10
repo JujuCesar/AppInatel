@@ -7,12 +7,12 @@ function openMenu() {
   }
   
   function temaBrut() {
-      document.documentElement.style.setProperty("--cor-click", "#570700");
+      document.documentElement.style.setProperty("--cor-click", "#1E1E1E");
       document.documentElement.style.setProperty("--cor-sombra", "#9b0a59");
-      document.documentElement.style.setProperty("--cor-text", "black");
+      document.documentElement.style.setProperty("--cor-text", "#303030");
       document.documentElement.style.setProperty("--cor-back1", "#A6A6A6");
       document.documentElement.style.setProperty("--cor-back2", "#F2F2F2");
-      document.documentElement.style.setProperty("--md-sys-color-primary", "#570700");
+      document.documentElement.style.setProperty("--md-sys-color-primary", "#1E1E1E");
   }
   
   function temaInatel() {
@@ -20,19 +20,19 @@ function openMenu() {
       document.documentElement.style.setProperty("--cor-sombra", "#0a599b");
       document.documentElement.style.setProperty("--cor-text", "black");
       document.documentElement.style.setProperty("--cor-back1", "#edf2f4");
-      document.documentElement.style.setProperty("--cor-back2", "#6a937a");
+      document.documentElement.style.setProperty("--cor-back2", "#white");
       document.documentElement.style.setProperty("--md-sys-color-primary", "#126ae2");
     
   }
   
   function temaDark() {
       const cores = {
-          "--cor-click": "#CEF09D",
+          "--cor-click": "#BB86FC",
           "--cor-sombra": "#9b0a59",
-          "--cor-text": "black",
-          "--cor-back1": "#38184C",
-          "--cor-back2": "#4f6a93",
-          "--md-sys-color-primary": "#CEF09D"
+          "--cor-text": "#E0E0E0",
+          "--cor-back1": "#303030",
+          "--cor-back2": "#121212",
+          "--md-sys-color-primary": "#BB86FC"
       };
   
       for (const [variavel, valor] of Object.entries(cores)) {
