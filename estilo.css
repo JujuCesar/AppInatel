@@ -4,6 +4,7 @@
     --cor-text: black; /* Preto */
     --cor-back1: #CBCFD1; /* Azul claro */
     --cor-back2: white; /* Verde Escuro */
+    --cor-text2: black;
     
     --md-sys-color-primary: #126ae2;
     --md-sys-color-on-primary: #FFFFFF;
@@ -149,7 +150,7 @@
   
   #componentes {
     position: relative;
-    background-color: var(--cor-back2);
+    background-color: var(--cor-text2);
     top: 0px;
     left: 0px;
     right: 0px;
@@ -159,8 +160,5 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  .bt {
-    color: var(--cor-text);
-  }
   
   

@@ -24,18 +24,14 @@ function openMenu() {
       document.documentElement.style.setProperty("--md-sys-color-primary", "#126ae2");
     
   }
-  
+
   function temaDark() {
-      const cores = {
-          "--cor-click": "#BB86FC",
-          "--cor-sombra": "#9b0a59",
-          "--cor-text": "#E0E0E0",
-          "--cor-back1": "#303030",
-          "--cor-back2": "#121212",
-          "--md-sys-color-primary": "#BB86FC"
-      };
+    document.documentElement.style.setProperty("--cor-click", "#BB86FC");
+    document.documentElement.style.setProperty("--cor-sombra", "#9b0a59");
+    document.documentElement.style.setProperty("--cor-text", "#E0E0E0");
+    document.documentElement.style.setProperty("--cor-back1", "#303030");
+    document.documentElement.style.setProperty("--cor-back2", "#121212");
+    document.documentElement.style.setProperty("--cor-text2", "white");
+    document.documentElement.style.setProperty("--md-sys-color-primary", "#BB86FC");
+}
   
-      for (const [variavel, valor] of Object.entries(cores)) {
-          document.documentElement.style.setProperty(variavel, valor);
-      }
-  }
