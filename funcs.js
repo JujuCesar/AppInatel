@@ -132,10 +132,21 @@ document.addEventListener("DOMContentLoaded", function(){ // 'document' Acessa d
             <div class="info">
                 <h3>${event.title}</h3>
                 <p>${event.description}</p>
-                <p>
-                    <span class="material-symbols-outlined icon">event</span> ${event.date} às ${event.time} 
-                    <span class="material-symbols-outlined icon">pin_drop</span> ${event.location}
-                </p>
+                <div id="event_box">
+                    <div id="msg1">
+                     <span class="material-icons-outlined icoG">
+                     event</span>
+                </div>
+                <div id="mns" class="font">${event.date} às ${event.time}</div>
+                </div>
+
+                <div id="pin_box">
+                    <div id="msg1">
+                     <span class="material-icons-outlined icoG">
+                     pin_drop</span>
+                </div>
+                <div id="mns" class="font">${event.location}</div>
+                </div>
             </div>
         `;
 
