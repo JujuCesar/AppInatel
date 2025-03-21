@@ -145,6 +145,16 @@ document.addEventListener("DOMContentLoaded", function(){ // 'document' Acessa d
     });
 });
 
+
+// Seleciona o carrossel no escopo global
+const carousel = document.querySelector(".carousel");
+
+// Função para atualizar o carrossel
+function updateCarousel() {
+    carousel.style.transform = `translateX(-${index * 100}%)`;
+}
+
+
 // Controle do carrossel
 let index = 0;
 function nextCard() {
@@ -180,4 +190,4 @@ carousel.addEventListener('touchend', (e) => {
 });
 
 // Inicializando o carrossel
-createCards();
+// createCards();
