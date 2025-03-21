@@ -152,6 +152,8 @@ const carousel = document.querySelector(".carousel");
 
 // Controle do carrossel
 let index = 0;
+let slide; // Variável auxiliar para dar stopSlide
+
 function nextCard() {
     index = (index + 1) % eventos.length;
     updateCarousel();
@@ -166,12 +168,28 @@ function updateCarousel() {
     carousel.style.transform = `translateX(-${index * 100}%)`;
 }
 
+// Reescrevendo o auto avanço do slide
+function startAutoSlide(){
+    slide = setInterval(nextCard, 5000);
+}
+
+// Função para parar o auto avanço do slide
+function stopAutoSlide(){
+    clearInterval(slide)
+}
+
 // Adicionando interatividade
 document.getElementById('nextBtn').addEventListener('click', nextCard);
 document.getElementById('prevBtn').addEventListener('click', prevCard);
 
-// Auto avanço a cada 5 segundos
-setInterval(nextCard, 5000);
+// aInicia o auto avanço ao carregar a página
+startAutoSlide;
+
+// Pausando o slide quando o mouse estiver sobre ele
+carousel.addEventListener("mouseenter",stopAutoSlide);
+
+// Retomar o slide quando o mouse sair dele
+carousel.addEventListener("mouseleave",startAutoSlide);
 
 // Arrastar no celular
 let startX;
