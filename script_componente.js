@@ -31,6 +31,18 @@ class AulasComponent extends HTMLElement {
         <div>
           ${aulasDia.map(a => {
             let provaDisplay = a.prova_alert ? '' : 'display: none;';
+
+            // Definir a cor da nota dinamicamente
+            let notaCor;
+            if (a.nota < 6) {
+             notaCor = 'red'; // Vermelho
+            } else if (a.nota >= 6 && a.nota < 8) {
+             notaCor = 'orange'; // Laranja
+          } else {
+             notaCor = 'green'; // Verde
+         }
+
+
             return `
               <div class="comp-aula">
                 <div class="lable-prova p_lable" style="${provaDisplay}">PROVA: <b>${a.prova}</b></div>
