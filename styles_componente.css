@@ -23,7 +23,7 @@
   .titulo_aula {
       font-weight: bold;
       font-size: 15px;
-      padding: 0 5px;
+      padding:  7px;    
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -52,6 +52,10 @@
       background-color: var(--nota);
     }
     
+    .p {
+        padding:  7px; 
+    }
+
     .p_lable {
       font-size: 13px;
       color: white;
