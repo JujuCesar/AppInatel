@@ -3,6 +3,11 @@
     --nota: #126ae2;
     --prova: #126ae2;  
   }
+
+  #componente {
+    position: relative;
+    background-color: var(--cor-back2);
+  }
   
   .titulo_aula {
       font-weight: bold;
@@ -43,4 +48,3 @@
       overflow: hidden;
       text-overflow: ellipsis;
     }
-      
