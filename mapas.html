@@ -17,10 +17,35 @@
 
   <main>
     <h1>Localizações de Imóveis em Santa Rita</h1>
-    <div class="mapa-container">
-      <img src="imagens/mapa-santa-rita.jpg" alt="Mapa de Santa Rita">
+  <div class="conteudo">
+    <div class="menu-lateral">
+      <button onclick="mostrarMapa('hoteis')">Mapas de Hotéis</button>
+      <button onclick="mostrarMapa('imobiliarias')">Mapas de Imobiliárias</button>
+      <button onclick="mostrarMapa('kitnets')">Mapas de Kitnets</button>
     </div>
+
+    <div class="mapa-container" id="mapa-container">
+      <img id="imagem-mapa" src="imagens/mapa-hoteis.jpg" alt="Mapa padrão de Santa Rita">
+    </div>
+  </div>
   </main>
+
+
+  <script>
+    function mostrarMapa(tipo) {
+      let img = document.getElementById("imagem-mapa");
+      if (tipo === "hoteis") {
+        img.src = "imagens/mapa-hoteis.jpg";
+        img.alt = "Mapa de Hotéis em Santa Rita";
+      } else if (tipo === "imobiliarias") {
+        img.src = "imagens/mapa-imobiliarias.jpg";
+        img.alt = "Mapa de Imobiliárias em Santa Rita";
+      } else if (tipo === "kitnets") {
+        img.src = "imagens/mapa-kitnets.jpg";
+        img.alt = "Mapa de Kitnets em Santa Rita";
+      }
+    }
+  </script>
 
 </body>
 </html>

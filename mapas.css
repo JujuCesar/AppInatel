@@ -82,4 +82,39 @@
     width: 100%;
     border-radius: 8px;
   }
+
+  .conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .menu-lateral {
+    background-color: var(--md-sys-color-primary-container);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    min-width: 200px;
+  }
+  
+  .menu-lateral button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: var(--cor-back2);
+    color: var(--md-sys-color-on-primary-container);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .menu-lateral button:hover {
+    background-color: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+  }
+  
   
