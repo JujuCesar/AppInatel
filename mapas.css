@@ -1,4 +1,5 @@
 :root {
+    --cor-click: #126ae2; /* Click */
     --md-sys-color-primary: #126ae2;
     --md-sys-color-on-primary: #FFFFFF;
     --md-sys-color-primary-container: #edf2f4;
