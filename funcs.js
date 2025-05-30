@@ -5,6 +5,10 @@ function openMenu() {
 function closeMenu() {
     document.getElementById("menu_aba").style.display = "none";    
   }
+
+function openMapa() {
+    window.location.href = "mapas.html"; // redireciona para a página mapas.html
+  }
   
   // Função para aplicar um tema com base no nome
 function aplicarTema(tema) {
