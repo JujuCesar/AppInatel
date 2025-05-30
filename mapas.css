@@ -28,9 +28,20 @@
     margin: 0;
   }
   
-  .logo {
-    font-weight: bold;
-    font-size: 1.5rem;
+
+  #logo {
+    position: absolute;
+    top: 13px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  .svg_logo{
+    width: 80px;
+  }
+  
+  .path_logo{
+    fill: var(--cor-click);
   }
   
   .botao-auxiliar {
